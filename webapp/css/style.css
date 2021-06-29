@@ -1,0 +1,43 @@
+/* Enter your custom styles here */
+.titlecss{ font-size: 70px;
+ font-family:Arial;
+ font-weight: bold;}
+
+.satadal{ background-color: black;}
+.satadal a{
+    text-decoration: underline!important;
+    color: grey;
+    font-size: 15px;
+     
+     
+     font-family: Arial;
+
+}
+
+.satadal a:hover{
+    font-weight: 600;
+     text-decoration: underline!important;
+     color: #fff!important;
+     font-size: 20px
+}
+
+.bord{border-radius: 100px!important;
+       background: black!important;
+        border: 2px solid grey;
+       
+    
+    margin-top: 65px!important;}
+
+    .bord:hover{ border: 3px solid white;}
+ 
+
+.leftsbr { margin-left: 250px!important;}
+
+.topb{ margin-right: 10px!important;
+     margin-top: 80px!important;}
+
+ .foot{ margin-left: 30px!important;}
+
+ .copyright{  color:whitesmoke;
+     margin-top: 5px!important;
+    margin-left: 250px!important;}

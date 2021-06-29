@@ -1,0 +1,775 @@
+
+<mvc:View
+    controllerName="accenture.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:tnt="sap.tnt"
+    xmlns:f="sap.ui.layout.form"
+    xmlns:core="sap.ui.core"
+    xmlns:l="sap.ui.layout"
+    xmlns:grid="sap.ui.layout.cssgrid"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+        
+>
+    <Shell id="shell">
+        <App id="app">
+            <pages>
+                <Page id="page"   >
+                 <customHeader>
+                    <Bar >
+                    <contentLeft>
+                    <Image src="model/logo.png" height="100%"  />
+                    </contentLeft>
+                    <contentMiddle>
+                        <IconTabHeader  >
+                            <items>
+                                <IconTabFilter  text="Info" />
+                                <IconTabFilter  text="Insights"  />
+                                <IconTabFilter  text="Services"  />
+                                <IconTabFilter  text="Industries"/>
+                                <IconTabFilter  text="Careers"/>
+                                <IconTabFilter  text="About Wipro"/>
+                            </items>
+                        </IconTabHeader>
+                    </contentMiddle>
+                    <contentRight> 
+                        <Button icon="sap-icon://search"  >
+                    
+                        </Button>
+                       <Button text="Sign In"/>
+                            <MenuButton icon="sap-icon://hint" text="Language" buttonMode="Split" type="Transparent" >
+                                <menu>
+                                <Menu>
+                                    <MenuItem text="India" icon="https://5.imimg.com/data5/NE/XG/MY-21460856/indian-flag-500x500.jpg" />
+                                    <MenuItem text="UAE" icon="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_United_Arab_Emirates.svg/1280px-Flag_of_the_United_Arab_Emirates.svg.png" />
+                                    <MenuItem text="UK" icon="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png" />
+                                    <MenuItem text="Australia" icon="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/1200px-Flag_of_Australia_%28converted%29.svg.png" />
+                                    <MenuItem text="Israel" icon="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/234px-Flag_of_Israel.svg.png" />
+                                   
+                                </Menu>
+                                </menu>
+                                </MenuButton>
+
+                                                                                     
+                        </contentRight>
+                        </Bar>
+                        </customHeader>  
+                <headerContent>
+                </headerContent>
+
+                <content>
+                     <HBox backgroundDesign="Solid">
+                        <VBox>
+                             <ObjectHeader title="-service" />
+                             <Title text="Wipro + SAP" titleStyle="H1" class=" titlecss sapUiLargeMarginBegin"></Title>
+                              <ObjectHeader condensed="true" class="sapUiSmallMarginBegin" title="Helping you unlock the value of your SAP application portfolio with the power of intelligence, innovation and industry"  />
+                             <!--  <Label text="" />
+                                <Label text=""/>  -->
+                        </VBox>
+                        <Image height="115%" src="https://www.accenture.com/t20190529T022235Z__w__/dk-en/_acnmedia/Accenture/Redesign-Assets/DotCom/Images/Global/Hero/4/Accenture-Sap-Index-Marquee-487x337.png"></Image>
+                    </HBox>
+
+ 
+                     <HBox  backgroundDesign="Solid" class="sapUiMediumMarginTopBottom sapUiLargeMarginBeginEnd  ">
+                         <Image class="sapUiMediumMarginTopBottom sapUiMediumMarginBegin  " height="50%" src="https://www.accenture.com/t20210218T143827Z__w__/dk-en/_acnmedia/Accenture/Redesign-Assets/DotCom/Images/Global/General/83/Accenture-Announce-56x56.png"></Image>
+                         <ObjectHeader title="SHARED COMMITMENT"   />
+                          <ObjectHeader  condensed="true" title="Accelerate sustainability transformation" class="sapUiMediumMarginTopBottom" />
+                        <VBox>
+                        <Text text=""/>
+                        <Link
+                        text="READ MORE -->"
+                        emphasized="true"
+                        class="sapUiLargeMarginTopBottom"
+                        width="300px"
+                        
+                        textAlign="Right"
+                        href="https://www.accenture.com/us-en/services/sap/sustainability-business-operations" >
+                        
+                        </Link>
+                         <Text text="" />
+                        </VBox>
+                     </HBox>
+
+                <HBox>
+                    <VBox width="50%"  backgroundDesign="Solid">
+                        <ObjectHeader title="Power the intelligent enterprise"  />
+                         <Text width="70%" class="sapUiLargeMarginBegin sapUiTinyeMarginBottom" text="How to win in your markets and industries? Applying intelligence will set your business apart and makes you more proactive, predictive and productive. This is the power of the intelligent enterprise."/>
+                         <Text width="70%" class="sapUiLargeMarginBegin sapUiMediumMarginTopBottom" text="Finance becomes the agent of business strategy and an architect of business value by planning, analyzing and advising on strategy. Supply chains become a growth engine by integrating around the customer with real-time adaptability and full transparency.And the intelligent enterprise elevates the user experience to delight customers and employees beyond their expectations.
+                             It’s time to future-proof your business."/>
+                         <HBox >
+                             <Link  class="sapUiLargeMarginBegin" text="Wipro myConcerto," href="https://www.wipro.com/" press="handleLinkPress"/>
+                                <Text  class="sapUiTinyMarginBegin" text="a fully integrated digital platform, harmonizes our "/>
+                    
+                        </HBox>
+                        <Text class="sapUiLargeMarginBegin" width="70%" text="disruptive thinking around industry, intelligence and innovation to drive"/>
+                     <HBox >
+                    <Link  class="sapUiLargeMarginBegin" text="enterprise transformation." href="https://www.wipro.com/engineering-construction-operations/" press="handleLinkPress"/>
+                    <Text  class="sapUiTinyMarginBegin" text="It's underpinned by new SAP solutions and"/>
+                    </HBox>
+                    <Text class="sapUiLargeMarginBegin" width="70%" text="intelligent technologies to help you orchestrate the future state of your business today."/>
+                    </VBox>
+                    
+                    <VBox width="40%"  >
+                    <ObjectHeader title=""  backgroundDesign="Solid" />
+                     <Image width="506px"   src="https://www.accenture.com/t20200918T072504Z__w__/dk-en/_acnmedia/Accenture/Redesign-Assets/DotCom/Images/Global/Thumbnail768x432/21/Accenture-SAP-Technology-Vision-2020-768x432.jpg" />
+                   <HBox> 
+                     <VBox backgroundDesign="Solid" > <Image src="model/notch1.JPG"  /></VBox>
+                    <VBox width="550px" >
+                    
+                       <Link class="sapUiMediumMarginTop sapUiSmallMarginBegin" text="SAP"  href="https://www.sap.com/india/index.html?url_id=auto_hp_redirect_india"/>
+                      
+                        <Link  class="sapUiSmallMarginTop sapUiSmallMarginBegin" text="Wipro Technology Vision 2020 for SAP solutions"  href="https://www.wipro.com/applications/"/>
+                       
+                        <Text class="sapUiSmallMarginTopBottom sapUiSmallMarginBegin" width="80%" text="From enhancing digital experience to managing constant change and innovation, these trends set the agenda for near-term business growth."/>
+                      
+                        <Link class="sapUiSmallMarginTopBottom sapUiSmallMarginBegin" text="Read More -->"  href="https://www.wipro.com/applications/"/>
+                    </VBox>
+
+                   </HBox> 
+
+               </VBox>
+               <VBox width="10%" backgroundDesign="Solid" />
+
+         </HBox>
+
+                <VBox backgroundDesign="Solid" >
+        <Panel width="auto" class="sapUiResponsiveMargin"/>
+            <HBox >
+                <Label text="" class="sapUiTinyMarginBegin"/>
+                <ObjectHeader title="SHARE" condensed="true" class="sapUiTinyMarginBegin sapUiSmallMarginBottom" />
+                <HBox width="50px"> <ImageContent    src="model/lnk2.png"
+                        description="LinkedIn"  press="press"   >
+                     
+                    </ImageContent>
+
+                  <ImageContent src="model/tw.png"
+                        description="Twitter"  press="press">
+    
+                    </ImageContent>
+
+                    <ImageContent   src="model/fb1.png"
+                        description="Facebook"  press="press">
+
+    
+                    </ImageContent>
+
+                        <ImageContent   src="model/ml.png"
+                        description="Mail"  press="press">
+    
+                    </ImageContent>
+               </HBox>     
+              
+            </HBox>
+       </VBox>
+
+       <VBox width="50%" class="    sapUiTinyMarginTopBottom">
+            <ObjectHeader  title="SAP solutions and offerings" />
+            <Text  class="    sapUiLargeMarginBegin" text="Accenture and SAP have a longstanding relationship that extends more than 40 years. As a leading business partner, we work with SAP end-to-end from product innovation, to development and delivery. Together, we are revolutionizing the future of business."/>
+
+       </VBox>
+                            <HBox  width="100%" class="  sapUiMediumMarginTopBottom  sapUiLargeMarginBegin" >
+                    <Image width="180px" src="https://www.accenture.com/t20201216T071813Z__w__/dk-en/_acnmedia/Accenture/Redesign-Assets/DotCom/Images/Global/Thumbnail400x400/15/Accenture-SAP-Solutions-400x400.jpg"/>
+                <VBox backgroundDesign="Solid" width="33.5%">
+                <HBox>        
+                    <Link class="  sapUiMediumMarginTop sapUiTinyMarginBegin sapUiLargeMarginEnd" text="SAP Solutions on cloud" href="https://en.wikipedia.org/wiki/SAP_Cloud_Platform#:~:text=SAP%20Cloud%20Platform%20is%20a,integrates%20data%20and%20business%20processes."/>
+                   <Text class="  sapUiLargeMarginBeginEnd "/>
+                   <Text class="  sapUiSmallMarginBegin  "/><Text class="  sapUiTinyMarginBegin  "/>
+                   <Image src="model/arrow1.JPG" class="  sapUiMediumMarginTop sapUiLargeMarginBegin"/>
+                </HBox>
+                    <Text width="80%" class="  sapUiLargeMarginTop sapUiTinyMarginBegin" text="Transform the core and innovate faster with SAP solutions on cloud."/>
+                </VBox>
+                <HBox class="sapUiMediumMarginBeginEnd"/>
+                 <VBox backgroundDesign="Solid" class="sapUiMediumMarginBeginEnd" width="30.5%">
+                    <HBox>
+                    <Link class="  sapUiMediumMarginTop sapUiTinyMarginBegin sapUiLargeMarginEnd" text="Wipro myConcerto" href="https://en.wikipedia.org/wiki/SAP_Cloud_Platform#:~:text=SAP%20Cloud%20Platform%20is%20a,integrates%20data%20and%20business%20processes."/>
+                    <Text class="  sapUiLargeMarginBeginEnd "/>
+                    <Text class="  sapUiTinyMarginBeginEnd "/>
+                    <Image src="model/arrow1.JPG" class="  sapUiMediumMarginTop sapUiLargeMarginBeginEnd"/>
+                    </HBox>
+                    <Text width="80%" class="  sapUiLargeMarginTop sapUiTinyMarginBegin" text="Harmonize technologies, applications and capabilities to amplify business results in the intelligent enterprise."/>
+                </VBox>
+                </HBox>
+                
+                <HBox >
+                <VBox backgroundDesign="Solid" class="sapUiLargeMarginBegin sapUiSmallMarginEnd" width="26%">
+                <HBox>
+                    <Link class="  sapUiMediumMarginTop sapUiTinyMarginBegin" text="Intelligent data management" href="https://en.wikipedia.org/wiki/SAP_Cloud_Platform#:~:text=SAP%20Cloud%20Platform%20is%20a,integrates%20data%20and%20business%20processes."/>
+                    <Text class="  sapUiTinyMarginBeginEnd "/>
+                    <Text class="  sapUiSmallMarginBegin sapUiTinyMarginEnd "/>
+                    <Image src="model/arrow1.JPG" class="  sapUiMediumMarginTop sapUiLargeMarginBeginEnd"/>
+                </HBox>
+                    <Text width="80%" class="  sapUiLargeMarginTop sapUiMediumMarginBottom sapUiTinyMarginBegin" text="Your company’s data is a strategic, differentiating asset at the heart of your SAP systems"/>
+                </VBox>
+            
+                <VBox backgroundDesign="Solid" class="sapUiMediumMarginBeginEnd" width="26%">
+                <HBox>
+                    <Link class="  sapUiMediumMarginTop sapUiTinyMarginBegin" text="Finance" href="https://en.wikipedia.org/wiki/SAP_Cloud_Platform#:~:text=SAP%20Cloud%20Platform%20is%20a,integrates%20data%20and%20business%20processes."/>
+                    <Text class="  sapUiLargeMarginBeginEnd "/>
+                    <Text class="  sapUiTinyMarginBegin "/>
+                    <Text class="  sapUiLargeMarginBegin sapUiSmallMarginEnd "/>
+                    <Image src="model/arrow1.JPG" class="  sapUiMediumMarginTop sapUiLargeMarginBeginEnd"/>
+                </HBox>
+                    <Text width="80%" class="  sapUiLargeMarginTop sapUiTinyMarginBegin" text="Become an intelligent finance function - drive your digital finance transformation."/>
+                </VBox>
+                <VBox backgroundDesign="Solid" class="sapUiSmallMarginBegin" width="26%">
+                <HBox>
+                    <Link class="  sapUiMediumMarginTop sapUiTinyMarginBeginEnd" text="Supply Chain" href="https://en.wikipedia.org/wiki/SAP_Cloud_Platform#:~:text=SAP%20Cloud%20Platform%20is%20a,integrates%20data%20and%20business%20processes."/>
+                    <Text class="  sapUiLargeMarginBeginEnd "/>
+                    <Text class="  sapUiTinyMarginBegin "/>
+                    <Text class="  sapUiSmallMarginBegin sapUiTinyMarginEnd "/>
+                    <Image src="model/arrow1.JPG" class="  sapUiMediumMarginTop sapUiLargeMarginBeginEnd"/>
+                </HBox>
+                    <Text width="80%" class="  sapUiLargeMarginTop sapUiTinyMarginBegin" text="The supply chain of the future must be a growth engine connecting to all partners with a focus on delivering value."/>
+                </VBox>
+                </HBox>
+
+                <HBox  width="100%" class="  sapUiMediumMarginTopBottom  sapUiLargeMarginBegin" >
+                    <Image width="180px" src="https://www.accenture.com/t20210419T123549Z__w__/dk-en/_acnmedia/Accenture/Redesign-Assets/DotCom/Images/Global/Featured/17/Accenture-SAP-Sustainability-400x400.jpeg"/>
+                <VBox backgroundDesign="Solid" width="33.5%">
+                <HBox>  
+                    <Link class="  sapUiMediumMarginTop sapUiTinyMarginBegin" text="Sustainability" href="https://en.wikipedia.org/wiki/SAP_Cloud_Platform#:~:text=SAP%20Cloud%20Platform%20is%20a,integrates%20data%20and%20business%20processes."/>
+                    <Text class="  sapUiLargeMarginBeginEnd "/>
+                    <Text class="  sapUiLargeMarginBegin sapUiMediumMarginEnd "/>
+                    <Text class="sapUiMediumMarginBegin sapUiTinyMarginEnd"/><Text class="sapUiTinyMarginBeginEnd"/>
+                    <Image src="model/arrow1.JPG" class="  sapUiMediumMarginTop sapUiLargeMarginBegin"/>
+                </HBox>
+                    <Text  width="80%" class="  sapUiLargeMarginTop sapUiTinyMarginBegin" text="Embed sustainability across the full spectrum of your business operations to unlock new value in value and supply chains."/>
+                </VBox>
+                <HBox class="sapUiMediumMarginBeginEnd"/>
+                 <VBox backgroundDesign="Solid" class="sapUiMediumMarginBeginEnd" width="30.5%">
+                 <HBox>
+                    <Link class="  sapUiMediumMarginTop sapUiTinyMarginBegin" text="Intelligent Talent &amp; HR" href="https://en.wikipedia.org/wiki/SAP_Cloud_Platform#:~:text=SAP%20Cloud%20Platform%20is%20a,integrates%20data%20and%20business%20processes."/>
+                    <Text class="  sapUiLargeMarginBeginEnd "/>
+                    <Text class="  sapUiMediumMarginBegin sapUiTinyMarginEnd "/>
+                    <Image src="model/arrow1.JPG" class="  sapUiMediumMarginTop sapUiLargeMarginBeginEnd"/>
+                </HBox>
+                    <Text width="80%" class="  sapUiLargeMarginTop sapUiTinyMarginBegin" text="With new SAP solutions and technologies, we help clients elevate HR from administrative to performance-enhancing."/>
+                </VBox>
+                </HBox>
+
+                <HBox class="sapUiLargeMarginBegin" >
+                <Label class="sapUiLargeMarginBeginEnd"/><Label class="sapUiLargeMarginBeginEnd"/><Label class="sapUiLargeMarginBeginEnd"/>
+                <Label class="sapUiLargeMarginBeginEnd"/><Label class="sapUiLargeMarginBeginEnd"/><Label class="sapUiLargeMarginBegin"/>
+                <Link text="VIEW ALL " textAlign="Center" class="sapUiSmallMarginTop" href="https://www.wipro.com/applications/"/>
+                <Image width="15px" src="model/arrw.PNG" class="sapUiSmallMarginTop sapUiSmallMarginBegin"/>
+                </HBox>
+
+
+
+
+             
+                    <VBox   backgroundDesign="Solid" class=" sapUiMediumMarginTop">
+                        <ObjectHeader title="Achieving Sustainable Development Goals around the world"  />
+                        <HBox>
+                         <VBox> <Text width="60%" class="sapUiLargeMarginBegin sapUiTinyMarginBottom" text="The United Nations Global Compact has partnered with Accenture and SAP, and joined by 3M joining as Patron Sponsor, to help businesses achieve the Sustainable Development Goals."/>
+                             <Link
+                             
+                              text="READ MORE -->"
+                              emphasized="true"
+                             class="sapUiLargeMarginBegin sapUiLargeMarginTopBottom"
+                               href="https://www.accenture.com/us-en/services/sap/sustainability-business-operations" >
+                        
+                              
+                            </Link>
+                           </VBox>
+                          <Image  class=" sapUiLargeMarginBottom" width="90%" src="https://www.accenture.com/t20201123T132305Z__w__/dk-en/_acnmedia/Accenture/Redesign-Assets/DotCom/Images/Global/Accenture-Sustainable-Development-724x407.jpg"/>
+
+                         </HBox>
+                    </VBox>
+
+                <ObjectHeader title="What we think" titleLevel="H1"></ObjectHeader>
+
+                
+               <HBox >
+                    <l:BlockLayoutCell >
+                        <HBox >
+                            <Image class="sapUiMediumMarginBegin" src="https://www.accenture.com/t20210217T052438Z__w__/dk-en/_acnmedia/Accenture/Redesign-Assets/DotCom/Images/Global/General/40/Accenture-TV21-184x184.jpg"/>
+                        </HBox>
+                    </l:BlockLayoutCell >
+                        <VBox width="50%">
+                            <Link text="Wipro labs" class="sapUiSmallMarginBegin sapUiSmallMarginTop" href="https://www.accenture.com/dk-en/about/accenture-labs-index"/>
+                    <l:BlockLayoutCell >
+                        <l:titleLink>
+                            <Link text="Technology vision 2021 leaders wanted" href="https://openui5.hana.ondemand.com/" />
+                        </l:titleLink>
+                    </l:BlockLayoutCell >
+                        <Text width="80%" class="sapUiSmallMarginBegin sapUiMediumMarginTop" text="A new future is on the horizon – one that’s different from what we expected.  Will you watch the world change around you? Or be the..."/>
+                        </VBox>
+
+                    
+                    <VBox >
+                        <Link text="SAP" class="sapUiSmallMarginTop sapUiTinyMarginBottom sapUiSmallMarginBegin sapUiTinyMarginBegin" href="https://www.wipro.com/"/>
+                        <Link class="sapUiSmallMarginBegin" width="80%" wrapping="true" text="Successful finance transformation with SAP S/4HANA" href="https://www.wipro.com/" />
+                        <Panel width="80%" class="sapUiSmallMarginBegin"/>
+
+                        <Link text="SAP" class="sapUiSmallMarginTop sapUiTinyMarginBottom sapUiSmallMarginBegin sapUiTinyMarginBegin" href="https://www.wipro.com/"/>
+                        <Link class="sapUiSmallMarginBegin" width="80%" wrapping="true" text="Demand-driven material requirements planning" href="https://www.wipro.com/" />
+                        <Panel width="80%" class="sapUiSmallMarginBegin"/>
+
+                    </VBox>
+
+                    
+                </HBox>
+
+                <HBox >
+                    <l:BlockLayoutCell >
+                        <HBox >
+                            <Image width="185px" class="sapUiMediumMarginBegin" src="https://www.accenture.com/t20200918T072504Z__w__/dk-en/_acnmedia/Accenture/Redesign-Assets/DotCom/Images/Global/Thumbnail400x400/13/Accenture-SAP-Technology-Vision-2020-400x400.jpg"/>
+                        </HBox>
+                    </l:BlockLayoutCell >
+                        <VBox width="50%">
+                            <Link text="SAP" class="sapUiSmallMarginBegin sapUiSmallMarginTop" href="https://www.accenture.com/dk-en/about/accenture-labs-index"/>
+                    <l:BlockLayoutCell >
+                        <l:titleLink>
+                            <Link text="Technology vision for SAP Solutions 2020 " href="https://openui5.hana.ondemand.com/" />
+                        </l:titleLink>
+                    </l:BlockLayoutCell >
+                        <Text width="80%" class="sapUiSmallMarginBegin sapUiMediumMarginTop" text="Tech Vision 2020 for SAP Solutions explores how enterprises can drive innovation and how Accenture is helping clients rebound for the future."/>
+                        </VBox>
+                         
+                    <VBox >
+                        <Link text="SAP" class="sapUiSmallMarginTop sapUiTinyMarginBottom sapUiSmallMarginBegin sapUiTinyMarginBegin" href="https://www.wipro.com/"/>
+                        <Link class="sapUiSmallMarginBegin" width="80%" wrapping="true" text="Target-driven recipe development with SAP S/4HANA" href="https://www.wipro.com/" />
+                        <Panel width="80%" class="sapUiSmallMarginBegin"/>
+
+                        <Link text="SAP" class="sapUiSmallMarginTop sapUiTinyMarginBottom sapUiSmallMarginBegin sapUiTinyMarginBegin" href="https://www.wipro.com/"/>
+                        <Link class="sapUiSmallMarginBegin sapUiSmallMarginBottom" width="80%" wrapping="true" text="Agile and SAP" href="https://www.wipro.com/" />
+                        <Panel width="80%" class="sapUiSmallMarginBegin"/>
+
+                    </VBox>
+
+                </HBox>
+
+                <HBox >
+                    <l:BlockLayoutCell >
+                        <HBox >
+                            <Image width="185px" class="sapUiMediumMarginBegin" src="https://www.accenture.com/t20200130T125008Z__w__/dk-en/_acnmedia/Accenture/Redesign-Assets/DotCom/Images/Global/Thumbnail400x400/8/Accenture-Sharpen-Supply-Chain-400x400.jpg"/>
+                        </HBox>
+                    </l:BlockLayoutCell >
+                        <VBox width="50%">
+                            <Link text="Sharpen up the supply chain with SAP" class="sapUiSmallMarginBegin sapUiSmallMarginTop" href="https://www.accenture.com/dk-en/about/accenture-labs-index"/>
+                    <l:BlockLayoutCell >
+                        <l:titleLink>
+                            <Link text="Technology vision 2021 leaders wanted" href="https://openui5.hana.ondemand.com/" />
+                        </l:titleLink>
+                    </l:BlockLayoutCell >
+                        <Text width="80%" class="sapUiSmallMarginBegin sapUiMediumMarginTop" text="We share how to refocus your growth strategy with a customer-centered supply chain powered by SAP solutions."/>
+                        </VBox>
+                </HBox>
+
+                <ObjectHeader title="Case studies"></ObjectHeader>
+
+           <grid:CSSGrid  gridTemplateColumns="3% 29.8% 29.8% 29.8% 3% " gridGap="1rem">
+           <VBox class= "sapUiSmallMarginBottom"/>
+                       <VBox backgroundDesign="Solid" class= "sapUiSmallMarginBottom"  >
+                       <Image  width="100%"  src="https://www.wipro.com/content/dam/nexus/en/industries/engineering-and-construction/images/2400_Engineering-and-Construction-Companies-Get-More-Networked_1896x590.jpg/jcr:content/renditions/2400_Engineering-and-Construction-Companies-Get-More-Networked_400x276.jpg"></Image>
+                       <Link class="sapUiSmallMarginBegin sapUiSmallMarginTop" text="communications and media"  href="https://www.accenture.com/dk-en/industries/communications-and-media-index"/>
+                       <l:BlockLayoutCell>
+                       <l:titleLink>
+                       <Link wrapping="true" text="The transition to technology driven telco accelerates" href="https://www.accenture.com/dk-en/case-studies/communications-media/vodafone-telco"/>
+                       </l:titleLink>
+                       </l:BlockLayoutCell>
+                       <Text class="sapUiSmallMarginBegin" text="Vodafone partnered with Accenture to transform their global finance organization."></Text>
+                       <Link class="sapUiSmallMarginBegin sapUiMediumMarginTop sapUiSmallMarginBottom" text="Read More-->" href="https://www.accenture.com/dk-en/case-studies/communications-media/vodafone-telco"/>
+                       </VBox>
+
+                       <VBox backgroundDesign="Solid" class= "sapUiSmallMarginBottom"  >
+                       <Image  width="100%"  src="https://www.wipro.com/content/dam/nexus/en/industries/retail/images/2716-Harmonizing-IoT-for-Retail-1896x590.jpg/jcr:content/renditions/2716-Harmonizing-IoT-for-Retail-400x276.jpg"></Image>
+                       <Link class="sapUiSmallMarginBegin sapUiSmallMarginTop" text="Rail and Transit"  href="https://www.accenture.com/dk-en/industries/communications-and-media-index"/>
+                       <l:BlockLayoutCell>
+                       <l:titleLink>
+                       <Link wrapping="true" text="ProRail on track to success with SAP S/4HANA" href="https://www.accenture.com/dk-en/case-studies/communications-media/vodafone-telco"/>
+                       </l:titleLink>
+                       </l:BlockLayoutCell>
+                       <Text class="sapUiSmallMarginBegin" text=" ProRail transforms its finance and procurement processes with SAP S/4HANA implementation."></Text>
+                       <Link class="sapUiSmallMarginBegin sapUiMediumMarginTop sapUiSmallMarginBottom" text="Read More-->" href="https://www.accenture.com/dk-en/case-studies/communications-media/vodafone-telco"/>
+                       </VBox>
+
+                       <VBox backgroundDesign="Solid" class= "sapUiSmallMarginBottom"  >
+                       <Image  width="100%"  src="https://www.wipro.com/content/dam/nexus/en/industries/engineering-and-construction/images/4272_Airports_1896x590.jpg/jcr:content/renditions/4272_Airports_400x276.jpg"></Image>
+                       <Link class="sapUiSmallMarginBegin sapUiSmallMarginTop" text="Life Sciences"  href="https://www.accenture.com/dk-en/industries/communications-and-media-index"/>
+                       <l:BlockLayoutCell>
+                       <l:titleLink>
+                       <Link wrapping="true" text="Merck KGaA puts digital at the heart of healthcare" href="https://www.accenture.com/dk-en/case-studies/communications-media/vodafone-telco"/>
+                       </l:titleLink>
+                       </l:BlockLayoutCell>
+                       <Text class="sapUiSmallMarginBegin" text="A new SAP S/4 HANA ERP solution ushers Merck KGaA Healthcare into a digital future."></Text>
+                       <Link class="sapUiSmallMarginBegin sapUiMediumMarginTop sapUiSmallMarginBottom" text="Read More-->" href="https://www.accenture.com/dk-en/case-studies/communications-media/vodafone-telco"/>
+                       </VBox>
+                      
+                       <VBox/>
+                       </grid:CSSGrid>
+
+           <grid:CSSGrid  gridTemplateColumns="3% 29.8% 29.8% 29.8% 3% " gridGap="1rem">
+           <VBox class= "sapUiSmallMarginBottom"/>
+                       <VBox backgroundDesign="Solid" class= "sapUiSmallMarginBottom"  >
+                       <Image  width="100%"  src="https://www.wipro.com/content/dam/nexus/en/industries/process-and-industrial-manufacturing/images/5068-product-engineering-1896x590.jpg/jcr:content/renditions/5068-product-engineering-400x276.jpg"></Image>
+                       <Link class="sapUiSmallMarginBegin sapUiSmallMarginTop" text="Life Sciences"  href="https://www.accenture.com/dk-en/industries/communications-and-media-index"/>
+                       <l:BlockLayoutCell>
+                       <l:titleLink>
+                       <Link wrapping="true" text="Sigma Healthcare: Running a healthy business" href="https://www.accenture.com/dk-en/case-studies/communications-media/vodafone-telco"/>
+                       </l:titleLink>
+                       </l:BlockLayoutCell>
+                       <Text class="sapUiSmallMarginBegin" text="Accenture and Sigma Healthcare implemented a new B2B e-commerce portal to improve efficiency for..."></Text>
+                       <Link class="sapUiSmallMarginBegin sapUiMediumMarginTop sapUiSmallMarginBottom" text="Read More-->" href="https://www.accenture.com/dk-en/case-studies/communications-media/vodafone-telco"/>
+                       </VBox>
+
+                       <VBox backgroundDesign="Solid" class= "sapUiSmallMarginBottom"  >
+                       <Image  width="100%"  src="https://www.wipro.com/content/dam/nexus/en/service-lines/consulting/images/technology-1896x590.jpg/jcr:content/renditions/technology-400x276.jpg"></Image>
+                       <Link class="sapUiSmallMarginBegin sapUiSmallMarginTop" text="Cloud"  href="https://www.accenture.com/dk-en/industries/communications-and-media-index"/>
+                       <l:BlockLayoutCell>
+                       <l:titleLink>
+                       <Link wrapping="true" text=" Del Monte Foods is growing with cloud" href="https://www.accenture.com/dk-en/case-studies/communications-media/vodafone-telco"/>
+                       </l:titleLink>
+                       </l:BlockLayoutCell>
+                       <Text class="sapUiSmallMarginBegin" text="Del Monte Foods, Inc. transforms its IT infrastructure and transitions to public cloud."></Text>
+                       <Link class="sapUiSmallMarginBegin sapUiMediumMarginTop sapUiSmallMarginBottom" text="Read More-->" href="https://www.accenture.com/dk-en/case-studies/communications-media/vodafone-telco"/>
+                       </VBox>
+
+                       <VBox backgroundDesign="Solid" class= "sapUiSmallMarginBottom"  >
+                       <Image  width="100%"  src="https://www.wipro.com/content/dam/nexus/en/service-lines/analytics/images/4064_Legacy-Modernization-Toolkit-Elevator-Pitch-Analytics_1896x590.jpg/jcr:content/renditions/4064_Legacy-Modernization-Toolkit-Elevator-Pitch-Analytics_400x276.jpg"></Image>
+                       <Link class="sapUiSmallMarginBegin sapUiSmallMarginTop" text="Cloud"  href="https://www.accenture.com/dk-en/industries/communications-and-media-index"/>
+                       <l:BlockLayoutCell>
+                       <l:titleLink>
+                       <Link wrapping="true" text="Barilla’s Secret Recipe: IT Services" href="https://www.accenture.com/dk-en/case-studies/communications-media/vodafone-telco"/>
+                       </l:titleLink>
+                       </l:BlockLayoutCell>
+                       <Text class="sapUiSmallMarginBegin" text="Barilla collaborated with Accenture to make its IT organization more cost-effective and competitive."></Text>
+                       <Link class="sapUiSmallMarginBegin sapUiMediumMarginTop sapUiSmallMarginBottom" text="Read More-->" href="https://www.accenture.com/dk-en/case-studies/communications-media/vodafone-telco"/>
+                       </VBox>
+                      
+                       <VBox/>
+                       </grid:CSSGrid>
+
+                                  <grid:CSSGrid  gridTemplateColumns="3% 29.8% 29.8% 29.8% 3% " gridGap="1rem">
+           <VBox class= "sapUiSmallMarginBottom"/>
+                       <VBox backgroundDesign="Solid" class= "sapUiSmallMarginBottom"  >
+                       <Image  width="100%"  src="https://www.wipro.com/content/dam/nexus/en/service-lines/business-process/images/3312-better-designed-business-processes-1896x590.jpg/jcr:content/renditions/3312-better-designed-business-processes-400x276.jpg"></Image>
+                       <Link class="sapUiSmallMarginBegin sapUiSmallMarginTop" text="SAP"  href="https://www.accenture.com/dk-en/industries/communications-and-media-index"/>
+                       <l:BlockLayoutCell>
+                       <l:titleLink>
+                       <Link wrapping="true" text=" Versum Materials implemented SAP S/4HANA" href="https://www.accenture.com/dk-en/case-studies/communications-media/vodafone-telco"/>
+                       </l:titleLink>
+                       </l:BlockLayoutCell>
+                       <Text class="sapUiSmallMarginBegin" text="Versum and Accenture collaborated to deliver one of the first go-lives of SAP S/4HANA v1610 Enterprise Management."></Text>
+                       <Link class="sapUiSmallMarginBegin sapUiMediumMarginTop sapUiSmallMarginBottom" text="Read More-->" href="https://www.accenture.com/dk-en/case-studies/communications-media/vodafone-telco"/>
+                       </VBox>
+
+                       <VBox backgroundDesign="Solid" class= "sapUiSmallMarginBottom"  >
+                       <Image  width="100%"  src="https://www.wipro.com/content/dam/nexus/en/service-lines/applications/images/4698-Transforming-To-Next-Gen-App-Delivery-For-Competitive-Differention-1896X590.jpg/jcr:content/renditions/4698-Transforming-To-Next-Gen-App-Delivery-For-Competitive-Differention-400X276.jpg"></Image>
+                       <Link class="sapUiSmallMarginBegin sapUiSmallMarginTop" text="SAP"  href="https://www.accenture.com/dk-en/industries/communications-and-media-index"/>
+                       <l:BlockLayoutCell>
+                       <l:titleLink>
+                       <Link wrapping="true" text="Tullow Oil's journey to cloud SAP" href="https://www.accenture.com/dk-en/case-studies/communications-media/vodafone-telco"/>
+                       </l:titleLink>
+                       </l:BlockLayoutCell>
+                       <Text class="sapUiSmallMarginBegin" text=" How migrating SAP to the public cloud helped Tullow Oil achieve cost flexibility, agility, risk mitigation and a platform for..."></Text>
+                       <Link class="sapUiSmallMarginBegin sapUiMediumMarginTop sapUiSmallMarginBottom" text="Read More-->" href="https://www.accenture.com/dk-en/case-studies/communications-media/vodafone-telco"/>
+                       </VBox>
+
+                       <VBox backgroundDesign="Solid" class= "sapUiSmallMarginBottom"  >
+                       <Image  width="100%"  src="https://www.wipro.com/content/dam/nexus/en/industries/communication-service-providers/images/4261-Wipro-CEM-1896x590.jpg/jcr:content/renditions/4261-Wipro-CEM-400x276.jpg"></Image>
+                       <Link class="sapUiSmallMarginBegin sapUiSmallMarginTop" text="About Wipro"  href="https://www.accenture.com/dk-en/industries/communications-and-media-index"/>
+                       <l:BlockLayoutCell>
+                       <l:titleLink>
+                       <Link wrapping="true" text="Wipro is powered by SAP solutions" href="https://www.accenture.com/dk-en/case-studies/communications-media/vodafone-telco"/>
+                       </l:titleLink>
+                       </l:BlockLayoutCell>
+                       <Text class="sapUiSmallMarginBegin" text="Wipro runs its core financial processing on a single global system instance of SAP® S/4HANA.     "></Text>
+                       <Link class="sapUiSmallMarginBegin sapUiMediumMarginTop sapUiSmallMarginBottom" text="Read More-->" href="https://www.accenture.com/dk-en/case-studies/communications-media/vodafone-telco"/>
+                       </VBox>
+                      
+                       <VBox/>
+                       </grid:CSSGrid>
+
+                       <ObjectHeader title="News"></ObjectHeader>
+
+           <grid:CSSGrid  gridTemplateColumns="3% 29.8% 29.8% 29.8% 3% " gridGap="1rem">
+           <VBox class= "sapUiSmallMarginBottom"/>
+                       
+                       <VBox backgroundDesign="Solid" class= "sapUiSmallMarginBottom"  >
+                       <Image  width="100%"  src="model/ektaline.JPG"></Image>
+            
+                       <l:BlockLayoutCell>
+                       <l:titleLink>
+                       <Link wrapping="true" text="Wipro boosts digital platform deployment capabilities" href="https://www.accenture.com/dk-en/case-studies/communications-media/vodafone-telco"/>
+                       </l:titleLink>
+                       </l:BlockLayoutCell>
+                       
+                       <Text class="sapUiSmallMarginBegin sapUiMediumMarginTop sapUiLargeMarginBottom" text="Accenture has acquired assets from ThinkTank, a Denver-based digital engagement technology company."></Text>
+                       
+                       <Link class="sapUiSmallMarginBegin sapUiLargeMarginTop sapUiMediumMarginBottom" text="Read More-->" href="https://www.accenture.com/dk-en/case-studies/communications-media/vodafone-telco"/>
+                       </VBox>
+                        
+                        <VBox backgroundDesign="Solid" class= "sapUiSmallMarginBottom"  >
+                       <Image  width="100%"  src="model/ektaline.JPG"></Image>
+                       
+                       <l:BlockLayoutCell>
+                       <l:titleLink>
+                       <Link wrapping="true" text="Accelerate sustainability transformation" href="https://www.accenture.com/dk-en/case-studies/communications-media/vodafone-telco"/>
+                       </l:titleLink>
+                       </l:BlockLayoutCell>
+                       <Text class="sapUiSmallMarginBegin sapUiMediumMarginTopBottom" text="Accenture and SAP are expanding their partnership to help companies embed sustainability across the full spectrum of their business operations."></Text>
+                       <Link class="sapUiSmallMarginBegin sapUiLargeMarginTop sapUiMediumMarginBottom" text="Read More-->" href="https://www.accenture.com/dk-en/case-studies/communications-media/vodafone-telco"/>
+                       </VBox>
+
+                       <VBox backgroundDesign="Solid" class= "sapUiSmallMarginBottom"  >
+                       <Image  width="100%"  src="model/ektaline.JPG"></Image>
+                       
+                       <l:BlockLayoutCell>
+                       <l:titleLink>
+                       <Link wrapping="true" text="Accenture with SAP takes bold steps to move clients further into the cloud with open industry solutions" href="https://www.accenture.com/dk-en/case-studies/communications-media/vodafone-telco"/>
+                       </l:titleLink>
+                       </l:BlockLayoutCell>
+                       <Text class="sapUiSmallMarginBegin sapUiMediumMarginTopBottom" text="Accenture will be working with SAP to help companies change their business operations with industry-specific solutions based on SAP’s industry cloud"></Text>
+                       <Link class="sapUiSmallMarginBegin sapUiLargeMarginTop sapUiMediumMarginBottom" text="Read More-->" href="https://www.accenture.com/dk-en/case-studies/communications-media/vodafone-telco"/>
+                       </VBox>
+
+                         <VBox/>
+                       </grid:CSSGrid>
+
+                                 <grid:CSSGrid  gridTemplateColumns="3% 29.8% 29.8% 29.8% 3% " gridGap="1rem">
+           <VBox class= "sapUiSmallMarginBottom"/>
+                       <VBox backgroundDesign="Solid" class= "sapUiSmallMarginBottom"  >
+                       <Image  width="100%"  src="model/ektaline.JPG"></Image>
+                       
+                       <l:BlockLayoutCell>
+                       <l:titleLink>
+                       <Link wrapping="true" text="Accenture increases cloud first capabilities with Zag" href="https://www.accenture.com/dk-en/case-studies/communications-media/vodafone-telco"/>
+                       </l:titleLink>
+                       </l:BlockLayoutCell>
+                       <Text class="sapUiSmallMarginBegin sapUiMediumMarginTopBottom" text="The acquisition will bolster Accenture’s digital transformation capabilities to meet increased demand from organisations migrating to the cloud."></Text>
+                       <Link class="sapUiSmallMarginBegin sapUiLargeMarginTop sapUiMediumMarginBottom" text="Read More-->" href="https://www.accenture.com/dk-en/case-studies/communications-media/vodafone-telco"/>
+                       </VBox>
+
+                         <VBox backgroundDesign="Solid" class= "sapUiSmallMarginBottom"  >
+                       <Image  width="100%"  src="model/ektaline.JPG"></Image>
+                       
+                       <l:BlockLayoutCell>
+                       <l:titleLink>
+                       <Link wrapping="true" text="Accenture and SAP help Indorama Ventures accelerate its digital transformation" href="https://www.accenture.com/dk-en/case-studies/communications-media/vodafone-telco"/>
+                       </l:titleLink>
+                       </l:BlockLayoutCell>
+                       <Text class="sapUiSmallMarginBegin sapUiMediumMarginTopBottom" text="One of the chemical industry’s largest new SAP S/4HANA implementations integrates all functions in a single system."></Text>
+                       <Link class="sapUiSmallMarginBegin sapUiLargeMarginTop sapUiMediumMarginBottom" text="Read More-->" href="https://www.accenture.com/dk-en/case-studies/communications-media/vodafone-telco"/>
+                       </VBox>
+
+                        <VBox backgroundDesign="Solid" class= "sapUiSmallMarginBottom"  >
+                       <Image  width="100%"  src="model/ektaline.JPG"></Image>
+                       
+                       <l:BlockLayoutCell>
+                       <l:titleLink>
+                       <Link wrapping="true" text="Accenture is named a leader in the IDC MarketScape reports" href="https://www.accenture.com/dk-en/case-studies/communications-media/vodafone-telco"/>
+                       </l:titleLink>
+                       </l:BlockLayoutCell>
+                       <Text class="sapUiSmallMarginBegin sapUiMediumMarginTopBottom" text="Accenture is a leader in worldwide SAP next-generation implementation services in new IDC MarketScape report"></Text>
+                       <Link class="sapUiSmallMarginBegin sapUiLargeMarginTop sapUiMediumMarginBottom" text="Read More-->" href="https://www.accenture.com/dk-en/case-studies/communications-media/vodafone-telco"/>
+                       </VBox>
+
+                         <VBox/>
+                       </grid:CSSGrid>
+
+                       <ObjectHeader title="Our Leaders" backgroundDesign="Solid"></ObjectHeader>
+
+                       <HBox >
+                   
+                       <VBox  width="2%" backgroundDesign="Solid" />
+
+                       <VBox  backgroundDesign="Transparent" class= "sapUiSmallMarginBottom " width="22%"  >
+                       <Image  width="100%" src="https://gpcatalysis.blob.core.windows.net/gphostedcontent-prod/Premji_Azim_500x500.jpg"></Image>
+                       <Text class="sapUiSmallMarginBegin sapUiSmallMarginTop" text="Azim H Premji" />
+                      
+                       <Text class="sapUiSmallMarginBegin sapUiSmallMarginTop" text="Founder Chairman" ></Text>
+                     <HBox>
+                       <Image src="model/linkd.JPG" height="18px" class="sapUiSmallMarginBegin sapUiMediumMarginTop " />
+                       <Link class=" sapUiMediumMarginTop " text="LinkedIn" href="https://www.accenture.com/dk-en/case-studies/communications-media/vodafone-telco"/>
+                       </HBox>
+                       </VBox>
+                    
+                     <VBox width="2%" backgroundDesign="Solid" /> 
+                     
+                     <VBox  backgroundDesign="Transparent" class= "sapUiSmallMarginBottom " width="22%"  >
+                       <Image  width="100%"  height="280px" src="https://www.forbesindia.com/media/images/2019/Nov/img_123831_rishad_premji.jpg"></Image>
+                       <Text class="sapUiSmallMarginBegin sapUiSmallMarginTop" text="Rishad Premji" />
+                      
+                       <Text class="sapUiSmallMarginBegin sapUiSmallMarginTop" text="Chairman" ></Text>
+                       <HBox>
+                       <Image src="model/linkd.JPG" height="18px" class="sapUiSmallMarginBegin sapUiMediumMarginTop " />
+                       <Link class=" sapUiMediumMarginTop " text="LinkedIn" href="https://www.accenture.com/dk-en/case-studies/communications-media/vodafone-telco"/>
+                       </HBox>
+                       </VBox>
+                    
+                     <VBox width="2%" backgroundDesign="Solid" />
+
+                     <VBox  backgroundDesign="Transparent" class= "sapUiSmallMarginBottom " width="22%"  >
+                       <Image  width="100%"  height="280px" src="https://pbs.twimg.com/profile_images/1277549314810707968/SemyTKZq_400x400.jpg"></Image>
+                       <Text class="sapUiSmallMarginBegin sapUiSmallMarginTop" text="Thierry Delaporte" />
+                      
+                       <Text class="sapUiSmallMarginBegin sapUiSmallMarginTop" text="Chief executive officer and managing director" ></Text>
+                       <HBox>
+                       <Image src="model/linkd.JPG" height="18px" class="sapUiSmallMarginBegin sapUiMediumMarginTop " />
+                       <Link class=" sapUiMediumMarginTop " text="LinkedIn" href="https://www.accenture.com/dk-en/case-studies/communications-media/vodafone-telco"/>
+                       </HBox>
+                       </VBox>
+                    
+                     <VBox  width="2%" backgroundDesign="Solid" />    
+
+                      <VBox  backgroundDesign="Transparent" class= "sapUiSmallMarginBottom " width="22%"  >
+                       <Image  width="100%"  height="280px" src="https://www.crn.com/resources/0250-0c51bd09a48a-157009df0bac-1000/rajan-kohli-wipro.jpg"></Image>
+                       <Text class="sapUiSmallMarginBegin sapUiSmallMarginTop" text="Rajan Kohli" />
+                      
+                       <Text class="sapUiSmallMarginBegin sapUiSmallMarginTop" text="Managing Partner - iDEAS Business Line" ></Text>
+                       <HBox>
+                       <Image src="model/linkd.JPG" height="18px" class="sapUiSmallMarginBegin sapUiMediumMarginTop " />
+                       <Link class=" sapUiMediumMarginTop " text="LinkedIn" href="https://www.accenture.com/dk-en/case-studies/communications-media/vodafone-telco"/>
+                       </HBox>
+                       </VBox>
+                    
+                     <VBox  width="3%" backgroundDesign="Solid" />                    
+                       
+                       </HBox>
+
+                       <HBox backgroundDesign="Solid" > <Text /></HBox>
+                        <HBox >
+                        
+                         <VBox  width="2%" backgroundDesign="Solid" />    
+
+                      <VBox  backgroundDesign="Transparent"  width="22%"  >
+                       <Image  width="100%"  height="280px" src="https://www.iimidr.ac.in/wp-content/uploads/Deepak-Satwalekar.jpg"></Image>
+                       <Text class="sapUiSmallMarginBegin sapUiSmallMarginTop" text="Deepak M Satwalekar" />
+                      
+                       <Text class="sapUiSmallMarginBegin sapUiSmallMarginTop" text="Independent Director" ></Text>
+                       <HBox>
+                       <Image src="model/linkd.JPG" height="18px" class="sapUiSmallMarginBegin sapUiMediumMarginTop sapUiMediumMarginBottom" />
+                       <Link class=" sapUiMediumMarginTop sapUiSmallMarginBottom" text="LinkedIn" href="https://www.accenture.com/dk-en/case-studies/communications-media/vodafone-telco"/>
+                       </HBox>
+                       </VBox>
+
+                       <VBox backgroundDesign="Solid" width="76%"><Text /></VBox>
+                        
+                        
+                        
+                        </HBox>
+
+                        
+                        <HBox backgroundDesign="Solid"  > <Text /></HBox>
+
+                        <HBox  backgroundDesign="Solid"  >
+                        <VBox width="40%"  class="sapUiMediumMarginTop"> <Text />
+                        </VBox >
+
+                        <VBox width="20%" class="sapUiMediumMarginTop">
+                        <Button text="Contact us" type="Emphasized" width="230px" class="sapUiMediumMarginBegin" />
+                        </VBox>
+                        <VBox width="40%" class="sapUiMediumMarginTop" > <Text />
+                        </VBox>
+                        </HBox>
+                          <HBox backgroundDesign="Solid"  > <Text /></HBox>
+
+
+                        
+          
+              <ObjectHeader title="Connect with us"/>
+          
+               <HBox class="sapUiLargeMarginBegin">
+               <VBox width="33%" >
+               <Image class="sapUiLargeMarginBegin  " src="https://www.accenture.com/t20200609T052917Z__w__/dk-en/_acnmedia/Accenture/Conversion-Assets/DotCom/Images/Accenture-Brandspace-Icon/150x150/Hero-Dimensional/Purple/Accenture-Conversation.png"/>
+               </VBox>
+
+               <VBox width="33%">
+               <Image class="sapUiLargeMarginBegin" src="https://www.accenture.com/t20200901T062402Z__w__/dk-en/_acnmedia/Accenture/Conversion-Assets/DotCom/Images/Accenture-Brandspace-Icon/150x150/Hero-Dimensional/Purple/Accenture-Social-Network.png"/>
+               </VBox>
+
+               <VBox width="33%">
+               <Image class="sapUiLargeMarginBegin" src="https://www.accenture.com/t20180829T060616Z__w__/dk-en/_acnmedia/Accenture/Conversion-Assets/DotCom/Images/Accenture-Brandspace-Icon/150x150/Hero-Dimensional/Purple/Accenture-Play-Media.png"/>
+               </VBox>
+               </HBox>
+
+               <HBox >
+               <VBox width="3%">
+               <Text />
+               </VBox>
+               <VBox width="30%"  backgroundDesign="Solid">
+               <ObjectHeader title="Twitter"/>
+               <Text text="Follow Wipro Technology on Twitter for latest updates." class="sapUiLargeMarginBegin sapUiLargeMarginBegin"/>
+               <Link text="@WiproTech -->" class="sapUiLargeMarginBegin sapUiLargeMarginTop sapUiSmallMarginBottom"/>
+               </VBox>
+
+               <VBox width="2%">
+               <Text />
+               </VBox>
+
+               <VBox width="30%"  backgroundDesign="Solid">
+               <ObjectHeader title="LinkedIn"/>
+               <Text text="Discover more about us on LinkedIn." class="sapUiLargeMarginBegin sapUiLargeMarginBegin"/>
+               <Link text="@WiproTech -->" class="sapUiLargeMarginBegin sapUiLargeMarginTop sapUiSmallMarginBottom"/>
+               </VBox>
+             
+
+               <VBox width="2%">
+               <Text />
+               </VBox>
+
+               <VBox width="30%"  backgroundDesign="Solid">
+               <ObjectHeader title="Youtube"/>
+               <Text text="Follow us on YouTube for business and industry insights and technology know-how." class="sapUiLargeMarginBegin sapUiLargeMarginBegin"/>
+               <Link text="@WiproTech -->" class="sapUiLargeMarginBegin sapUiLargeMarginTop sapUiSmallMarginBottom"/>
+               </VBox>
+               </HBox>
+
+            <HBox width="100%"><Text class="sapUiSmallMarginTopBottom"/></HBox>
+
+            <VBox backgroundDesign="Solid" class="sapUiMediumMarginTop">
+                    <ObjectHeader title="Ready to join our SAP team?"  />
+                <HBox>
+                <VBox width="60%"> 
+                    <Text width="60%" class="sapUiLargeMarginBegin sapUiTinyMarginBottom" text="There has never been a better time to join our global team of SAP experts. Join us and gain early access to SAP innovations, work with the biggest clients and build cross-domain expertise. Go as far as your ambition takes you."/>
+                    <Button text="Contact us" type="Emphasized" width="230px" class="sapUiLargeMarginBegin sapUiLargeMarginTop" />
+                </VBox >
+                        <Image  class=" sapUiLargeMarginBottom" width="90%" src="https://www.accenture.com/t20190614T043857Z__w__/dk-en/_acnmedia/Accenture/Redesign-Assets/DotCom/Images/Global/General/16/Accenture-Join-Us-Visit-724X432.jpg"/>
+                </HBox>
+                </VBox>
+          
+
+          <VBox class="satadal">
+                <HBox >
+                <Image class="sapUiMediumMarginTop sapUiSmallMarginBegin" width="180px" src="https://1000logos.net/wp-content/uploads/2020/04/Wipro-Logo.png"/>
+               <Link  text="About us" href="wipro.com" class=" topb sapUiLargeMarginBegin sapUiLargeMarginTop sapUiSmallMarginBottom"/>
+                <Link text="Contact us" href="wipro.com" class=" topb sapUiLargeMarginBegin sapUiLargeMarginTop sapUiSmallMarginBottom"/>
+               
+                <Link text="Careers" href="wipro.com" class="topb sapUiLargeMarginBegin sapUiLargeMarginTop sapUiSmallMarginBottom"/>
+               <Link text="Locations" href="wipro.com" class=" topb sapUiLargeMarginBegin sapUiLargeMarginTop sapUiSmallMarginBottom"/>
+                
+               <Image height="30px" class="bord leftsbr sapUiLargeMarginBegin sapUiLargeMarginTop" src="https://toppng.com/uploads/preview/linkedin-square-logo-comments-linkedin-icon-black-11563087424lpctodfamj.png"/>
+                 <Image height="30px" class="bord  sapUiLargeMarginBegin sapUiLargeMarginTop" src="https://toppng.com/uploads/preview/twitter-logo-black-11549680426ohdamjlf5z.png"/>
+                <Image height="30px" class="bord  sapUiLargeMarginBegin sapUiLargeMarginTop" src="https://whitelight.online/wp-content/uploads/2020/11/icon-fb.png.png"/>
+                <Image height="30px" class="bord  sapUiLargeMarginBegin sapUiLargeMarginTop" src="https://pbs.twimg.com/profile_images/1267900281087549441/M0nN2lsM.jpg"/>                
+                
+                
+                </HBox>
+                  <Panel width="auto" class="sapUiResponsiveMargin"/>
+                <HBox >
+                 <Link  text="Privacy statement" href="wipro.com" class=" foot sapUiLargeMarginBegin  sapUiSmallMarginBottom"/>
+                <Link text="Terms and conditions" href="wipro.com" class=" foot sapUiLargeMarginBegin  sapUiSmallMarginBottom"/>
+               
+                <Link text="Cookie Policy" href="wipro.com" class="foot  sapUiLargeMarginBegin sapUiSmallMarginBottom"/>
+               <Link text="Accessibilty Statement" href="wipro.com" class="foot sapUiLargeMarginBegin  sapUiSmallMarginBottom"/>
+                <Link text="Sitemap" href="wipro.com" class="foot sapUiLargeMarginBegin  sapUiSmallMarginBottom"/>
+
+                 <Text text="© 2021 Wipro - Satadal. All Rights Reserved." class="copyright  sapUiLargeMarginBegin sapUiLargeMarginTop sapUiSmallMarginBottom"/>
+
+                
+                </HBox>
+
+                </VBox>
+
+                </content>
+
+        
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>
+
